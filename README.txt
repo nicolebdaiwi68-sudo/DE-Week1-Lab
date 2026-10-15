@@ -24,3 +24,16 @@ The data should be checked before creating the final report
 
 ## What the pipeline does
 Complete after the lab: In one sentence, describe how the data moves from the source to a useful output.
+
+## GCP Results
+
+Raw table: DE_Intro.Orders
+
+- Rows loaded: 8
+- Rows with a missing city: 1
+- Rows with a non-positive quantity: 1
+- Rows returned by the filtered query: 5
+
+**Observations:**
+
+The original dataset contained 8 rows. One order had a missing customer city, one had a quantity of 0, and one order was duplicated. After filtering out these issues, 5 valid order records remained.
